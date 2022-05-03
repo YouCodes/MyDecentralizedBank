@@ -1,0 +1,6 @@
+service : {
+  checkMyBalance: () -> (float64) query;
+  compoundInterest: () -> () oneway;
+  getMore: (float64) -> () oneway;
+  takeAway: (float64) -> () oneway;
+}
